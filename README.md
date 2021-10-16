@@ -1,2 +1,2 @@
-# --Calculator
+# PinkCalculator
 Andriod Calculator
