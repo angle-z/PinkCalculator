@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="year">
+       <item>1年</item>
+       <item>3年</item>
+       <item>5年</item>
+       <item>6年</item>
+       <item>7年</item>
+       <item>8年</item>
+       <item>9年</item>
+       <item>10年</item>
+       <item>15年</item>
+       <item>20年</item>
+       <item>25年</item>
+       <item>30年</item>
+       <item>35年</item>
+       <item>40年</item>
+   </string-array>
+        <string-array name="rate">
+            <item>最新基准利率7折</item>
+            <item>最新基准利率8折</item>
+            <item>最新基准利率85折</item>
+            <item>最新基准利率9折</item>
+            <item>最新基准利率</item>
+            <item>最新基准利率1.1倍</item>
+        </string-array>
+</resources>

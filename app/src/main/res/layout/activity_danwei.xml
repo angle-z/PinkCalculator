@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EFEFEF"
+        android:text="长度转化"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/text_mi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="m" />
+
+    <Button
+        android:id="@+id/button_mi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="单位（米）" />
+
+    <EditText
+        android:id="@+id/text_chi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="feet" />
+
+    <Button
+        android:id="@+id/button_chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="单位（英尺）" />
+
+    <EditText
+        android:id="@+id/text_zhang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="丈" />
+
+    <Button
+        android:id="@+id/button_zhang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="单位（丈）" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="重量转化"/>
+
+    <EditText
+        android:id="@+id/text_kg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="kg" />
+
+    <Button
+        android:id="@+id/button_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="单位（千克）" />
+
+    <EditText
+        android:id="@+id/text_bang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="pound" />
+
+    <Button
+        android:id="@+id/button_bang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="单位（榜）" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_dan"
+        android:gravity="center"
+        android:hint="担"
+        />
+
+    <Button
+        android:id="@+id/button_dan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="单位（担）" />
+</LinearLayout>

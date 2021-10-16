@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:background="#FFFFFF"
+        android:text=""
+        android:textColor="#8D030C0C"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="40sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="贷款总额元 "
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/text_dai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="按揭年数" />
+
+    <EditText
+        android:id="@+id/text_nian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="贷款利率（年利率）%" />
+
+    <Button
+        android:id="@+id/button_dai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="计算结果" />
+
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="等额本息还款"
+        android:textColor="#8D030C0C"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/text_yue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="月均还款（元）" />
+
+    <EditText
+        android:id="@+id/text_yue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="支付利息（元）" />
+
+    <EditText
+        android:id="@+id/text_yue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="还款总额（元）" />
+
+    <TextView
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="等额本金还款"
+
+        android:textColor="#8D030C0C"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/text_huan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="月均还款（元）" />
+
+    <EditText
+        android:id="@+id/text_huan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="支付利息（元）" />
+
+    <EditText
+        android:id="@+id/text_zong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="还款总额（元）" />
+
+    Ena 20:13:09
+</LinearLayout>
